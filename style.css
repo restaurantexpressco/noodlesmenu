@@ -1,18 +1,24 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: top;
     align-items: center;
     height: 100vh;
     margin: 0;
 }
 
 #image-container {
-    text-align: center;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    gap:10px;
+    width: 100%;
+   
+    
 }
 
 #image {
-    max-width: 100%;
-    height: auto;
+    width: 100%;
     border: 5px solid #333;
 }
